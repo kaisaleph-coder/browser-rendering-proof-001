@@ -1,0 +1,23 @@
+{
+  "name": "browser-rendering-proof-001",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "bench": "node scripts/run-bench.mjs"
+  },
+  "dependencies": {
+    "@babylonjs/core": "latest",
+    "playcanvas": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "playwright": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
